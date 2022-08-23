@@ -10,5 +10,4 @@ const postData = (user,score) => {
         },
     })
 }
-
 export default postData;
