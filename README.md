@@ -1,56 +1,64 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# To Do list
 
-> Description the project.
-
-
+> A leaderboard showing the names and current scores of the leading competitors.The project is set up as a javaScript project using webpack and ES6 features.
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Html
+- Csss
+- Js
+- Technologies used: webpack, Git, Github
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
-
+[Live Demo]()
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+To get the project locally , run 
+```bash 
+git clone https://github.com/iambenkis/Leaderboard.git
+```
 
 ### Prerequisites
 
-### Setup
+- node
+- npm
 
 ### Install
 
+Install webpack with npm :
+
+```bash
+npm install --save-dev webpack
+```
+
 ### Usage
+
+- To get the configuration of the app: Run 
+```bash
+npm install
+```
 
 ### Run tests
 
-### Deployment
-
-
+- To update changes : Run 
+```bash 
+npm run build
+```
+- To launch the app locally: Run 
+```bash 
+    npm start
+```
 
 ## Authors
 
-👤 **Author1**
+👤  **Benjamin Kisenge**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+* GitHub: [@benjamin kisenge](https://github.com/iambenkis)
+* Twitter: [@benjamin kisenge](https://twitter.com/iambenkis)
+* LinkedIn: [benjamin kisenge](https://www.linkedin.com/in/ben-kisenge/)
 
 ## 🤝 Contributing
 
