@@ -1,4 +1,5 @@
-import icon from '../imgs/icon.png'
+import icon from '../imgs/icon.png';
+
 const htmlTemplate = (item) => `
     <p>
         <span class="name"> 
