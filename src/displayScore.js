@@ -1,1 +1,0 @@
-const scoreContainer = document.querySelector('.score-container');
