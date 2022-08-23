@@ -10,6 +10,7 @@ main {
   display: flex;
   justify-content: center;
   padding-top: 2.5%;
+  background-color: rgba(58, 59, 59, 0.384);
 }
 
 h1 {
@@ -139,4 +140,16 @@ form button {
 }
 form button:hover {  
   background-color: rgba(82, 82, 245, 0.87); 
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name img {
+  width: 1.2rem;
+  height: auto; 
+  margin-right: 1.2rem;
 }
