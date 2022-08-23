@@ -26,10 +26,6 @@ const scores = [
     {
         name: 'James',
         score: 35,
-    },
-    {
-        name: 'Ramos',
-        score: 35,
     }
 ];
 export default scores;
