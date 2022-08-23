@@ -1,4 +1,4 @@
-// import './style.css';
+import './style.css';
 import displayScore from './modules/displayScore.js';
 import postData from './modules/postToApi.js';
 const form = document.querySelector('form');
@@ -7,9 +7,7 @@ displayScore();
 form.addEventListener('submit', (e) => {
     e.preventDefault();
     const inputUser = form.querySelector('input[type = "text"]').value;
-    const inputScore = form.querySelector('input[type = "number"]').value;
-    console.log(inputUser)
-    console.log(inputScore)
+    const inputScore = form.querySelector('input[type = "number"]').value; 
     postData(inputUser,inputScore);
     form.reset(); 
 });
