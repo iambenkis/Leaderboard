@@ -1,31 +1,8 @@
-const scores = [
-  {
-    name: 'Benjamin',
-    score: 35,
-  },
-  {
-    name: 'George',
-    score: 56,
-  },
-  {
-    name: 'Dan',
-    score: 62,
-  },
-  {
-    name: 'Mark',
-    score: 35,
-  },
-  {
-    name: 'John',
-    score: 35,
-  },
-  {
-    name: 'Joel',
-    score: 35,
-  },
-  {
-    name: 'James',
-    score: 35,
-  },
-];
-export default scores;
+const getScore = async () => {
+  const response = await
+  fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Jimsa5KtKCwfICVDsBiC/scores/');
+  let scores = [];
+  scores = await response.json();
+  return scores.result;
+};
+export default getScore;
