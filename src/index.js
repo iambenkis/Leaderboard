@@ -15,6 +15,6 @@ form.addEventListener('submit', (e) => {
 });
 
 refresh.addEventListener('click', () => {
-    console.log('refresed')
+    window.location.reload()
 })
 
