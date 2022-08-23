@@ -20,14 +20,14 @@ h1 {
 
 .board {
   width: 100%;
-  display: flex; 
+  display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
 }
 
 .add-book {
   width: 100%;
-  padding: 1rem; 
+  padding: 1rem;
   background-color: rgba(19, 105, 163, 0.37);
   margin-top: 1rem;
   color: #fff;
@@ -49,16 +49,8 @@ h1 {
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #fff;
-  opacity: 1; 
+  opacity: 1;
   font-style: italic;
-}
-
-.add-book button {
-  margin-top: 1rem;
-  float: right;
-  height: 25px;
-  width: 5rem;
-  cursor: pointer;
 }
 
 .add-book form {
@@ -67,20 +59,20 @@ h1 {
 
 .refresh {
   cursor: pointer;
-  padding: .3rem;
+  padding: 0.3rem;
   border: none;
   background-color: rgba(82, 82, 245, 0.493);
   border-radius: 10px;
-  color: #fff; 
+  color: #fff;
 }
 
-.refresh:hover { 
-  background-color: rgb(82, 82, 245); 
+.refresh:hover {
+  background-color: rgb(82, 82, 245);
   color: #fff;
 }
 
 .board-score {
-  width: 550px; 
+  width: 550px;
   background-color: rgba(19, 105, 163, 0.37);
   padding: 1rem;
   border-radius: 15px;
@@ -97,7 +89,7 @@ h1 {
   border-radius: 10px;
 }
 
-.board-head i { 
+.board-head i {
   color: rgb(82, 82, 245);
 }
 
@@ -130,16 +122,25 @@ h1 {
   background: rgba(5, 38, 129, 0.158);
 }
 
-form button { 
+form button {
   cursor: pointer;
-  padding: .3rem;
+  padding: 0.3rem;
   border: none;
   background-color: rgba(82, 82, 245, 0.493);
   border-radius: 10px;
   color: #fff;
 }
-form button:hover {  
-  background-color: rgba(82, 82, 245, 0.87); 
+
+.add-book button {
+  margin-top: 1rem;
+  float: right;
+  height: 25px;
+  width: 5rem;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: rgba(82, 82, 245, 0.87);
 }
 
 .name {
@@ -150,6 +151,6 @@ form button:hover {
 
 .name img {
   width: 1.2rem;
-  height: auto; 
+  height: auto;
   margin-right: 1.2rem;
 }

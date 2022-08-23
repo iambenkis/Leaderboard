@@ -1,7 +1,8 @@
+import icon from '../imgs/icon.png'
 const htmlTemplate = (item) => `
     <p>
         <span class="name"> 
-            <img src="/imgs/icon.png" alt="icon"> 
+            <img src=${icon} alt="icon"> 
             ${item.user}
         </span>
         <span class="scores">${item.score}</span>
