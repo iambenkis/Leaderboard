@@ -42,7 +42,7 @@ npm install --save-dev webpack
 npm install
 ```
 
-- Consumption of Api 
+- API consuming
 ```bash
   const getScore = async () => {
   const response = await
