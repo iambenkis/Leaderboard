@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# To Do list
+# Leaderboard
 
 > A leaderboard showing the names and current scores of the leading competitors.The project is set up as a javaScript project using webpack and ES6 features.
 ## Built With
@@ -9,6 +9,7 @@
 - Csss
 - Js
 - Technologies used: webpack, Git, Github
+- REST Api
 
 ## Live Demo (if available)
 
@@ -39,6 +40,17 @@ npm install --save-dev webpack
 - To get the configuration of the app: Run 
 ```bash
 npm install
+```
+
+- API consuming
+```bash
+  const getScore = async () => {
+  const response = await
+  fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Jimsa5KtKCwfICVDsBiC/scores/');
+  let scores = [];
+  scores = await response.json();
+  return scores.result;
+};
 ```
 
 ### Run tests

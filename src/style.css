@@ -9,38 +9,48 @@ main {
   height: 100vh;
   display: flex;
   justify-content: center;
-  padding-top: 7%;
+  padding-top: 2.5%;
+  background-color: rgba(58, 59, 59, 0.384);
 }
 
 h1 {
   text-align: center;
+  color: #444;
 }
 
 .board {
   width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
 .add-book {
+  width: 100%;
   padding: 1rem;
-  margin-left: 5rem;
+  background-color: rgba(19, 105, 163, 0.37);
+  margin-top: 1rem;
+  color: #fff;
+  border-radius: 15px;
 }
 
 .add-book input {
   display: block;
   margin-top: 1rem;
-  width: 250px;
-  height: 25px;
+  width: 100%;
+  height: 2rem;
   padding-left: 0.3rem;
+  color: #fff;
+  background-color: rgba(81, 160, 196, 0);
+  border: 2px solid #fff;
+  outline: none;
+  border-radius: 5px;
 }
 
-.add-book button {
-  margin-top: 1rem;
-  float: right;
-  height: 25px;
-  width: 5rem;
-  cursor: pointer;
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 1;
+  font-style: italic;
 }
 
 .add-book form {
@@ -49,30 +59,52 @@ h1 {
 
 .refresh {
   cursor: pointer;
+  padding: 0.3rem;
+  border: none;
+  background-color: rgba(82, 82, 245, 0.493);
+  border-radius: 10px;
+  color: #fff;
+}
+
+.refresh:hover {
+  background-color: rgb(82, 82, 245);
+  color: #fff;
 }
 
 .board-score {
-  width: 450px;
+  width: 550px;
+  background-color: rgba(19, 105, 163, 0.37);
   padding: 1rem;
+  border-radius: 15px;
+  color: #fff;
 }
 
 .board-head {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  color: #fff;
+  background-color: #333;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.board-head i {
+  color: rgb(82, 82, 245);
 }
 
 .score-container {
   width: 100%;
-  height: 250px;
+  height: 150px;
   overflow-y: scroll;
-  background-color: #fff;
+  background-color: rgba(81, 160, 196, 0.432);
   margin-top: 1rem;
   padding: 0;
-  border: 2px solid #222;
+  border: 2px solid #fff;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .score-container::-webkit-scrollbar {
@@ -87,5 +119,38 @@ h1 {
 }
 
 .score-container p:nth-child(odd) {
-  background: rgb(179, 179, 179);
+  background: rgba(5, 38, 129, 0.158);
+}
+
+form button {
+  cursor: pointer;
+  padding: 0.3rem;
+  border: none;
+  background-color: rgba(82, 82, 245, 0.493);
+  border-radius: 10px;
+  color: #fff;
+}
+
+.add-book button {
+  margin-top: 1rem;
+  float: right;
+  height: 25px;
+  width: 5rem;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: rgba(82, 82, 245, 0.87);
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name img {
+  width: 1.2rem;
+  height: auto;
+  margin-right: 1.2rem;
 }
