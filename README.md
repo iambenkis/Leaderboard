@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# To Do list
+# Leaderboard
 
 > A leaderboard showing the names and current scores of the leading competitors.The project is set up as a javaScript project using webpack and ES6 features.
 ## Built With
