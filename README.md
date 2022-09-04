@@ -13,7 +13,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo]()
+[Live Demo](https://iambenkis.github.io/Leaderboard/dist/)
 
 ## Getting Started
 
