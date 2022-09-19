@@ -3,6 +3,9 @@
 # Leaderboard
 
 > A leaderboard showing the names and current scores of the leading competitors.The project is set up as a javaScript project using webpack and ES6 features.
+
+![leaderborad](./leader.png)
+
 ## Built With
 
 - Html
@@ -17,8 +20,8 @@
 
 ## Getting Started
 
-To get the project locally , run 
-```bash 
+To get the project locally , run
+```bash
 git clone https://github.com/iambenkis/Leaderboard.git
 ```
 
@@ -37,7 +40,7 @@ npm install --save-dev webpack
 
 ### Usage
 
-- To get the configuration of the app: Run 
+- To get the configuration of the app: Run
 ```bash
 npm install
 ```
@@ -55,12 +58,12 @@ npm install
 
 ### Run tests
 
-- To update changes : Run 
-```bash 
+- To update changes : Run
+```bash
 npm run build
 ```
-- To launch the app locally: Run 
-```bash 
+- To launch the app locally: Run
+```bash
     npm start
 ```
 
